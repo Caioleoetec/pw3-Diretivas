@@ -1,0 +1,5 @@
+<ul *ngFor="let p of professores; let i = index">
+  <li *ngIf="p.favorito">
+    <div>{{i+1}}. {{p.nome}}</div>
+  </li>
+</ul>

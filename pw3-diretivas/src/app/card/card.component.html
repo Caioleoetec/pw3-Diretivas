@@ -1,0 +1,20 @@
+<div class="card">
+  <div class="header">
+    <ng-content select="header"></ng-content>
+  </div>
+  Espaçamento ---:)
+  <div class="content">
+    <ng-content select="content"></ng-content>
+  </div>
+  Espaçamento ---:)
+  <div class="footer">
+    <ng-content select="footer"></ng-content>
+  </div>
+</div>
+<!--
+  Uma carta que poderá conter qualquer coisa => ng-content
+  <ng-content></ng-content>
+
+  select="nome do elemento HTML" => Seleciona partes do conteúdo dentro da tag "card", neste caso <card>coisas</card>
+    para exibir de acordo com o ng-content select
+-->
